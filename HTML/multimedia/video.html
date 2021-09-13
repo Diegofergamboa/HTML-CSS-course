@@ -7,6 +7,17 @@
     <title>Explorando video etiqueta</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Etiqueta video con buenas prácticas</h1>
+    </header>
+    <main>
+        <figure> // La etiqueta de figure es basicamente el reemplazo de el div que no es bueno usarlo para los proyectos.
+            <video preload="auto" controls> // Control es del tipo de etiquetas que no tiene formato de cierre. // El preload es muy importantepara que la guía de cargar se realice anteriormente a cuando el video pasa
+                <source/> // Aqui van los diferentes tipos de formato para que siempre que el navegador intente renderizar y no de un broke si está en otro navegador 
+                <source src="/HTML/multimedia/src/video.mp4"/>  
+                <source/>
+            </video>
+        </figure>
+    </main>
 </body>
 </html>
