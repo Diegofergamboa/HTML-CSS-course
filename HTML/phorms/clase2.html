@@ -7,6 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <section>
+            <label for="">
+                <span>¿Cual es tu nombre?</span> <!-- Required es super importante para cuando se hace necesario que se llenen los campos requeridos -->
+                <input type="text" required>
+            </label>
+            <label for="">
+                <span>¿Cual es tu correo?</span> <!-- Required es super importante para cuando se hace necesario que se llenen los campos requeridos -->
+                <input type="mail" autocomplete="email" required>
+            </label>
+            <label for="">
+                <span>¿Cual es tu horario favorito para estudiar?</span>
+                <input type="time" required>
+            </label>
+            <label for="">
+                <span>¿Cual es tu fecha de nacimiento?</span>
+                <input type="date" required autocomplete="bday-day">
+            </label>
+        </section>
+    </main>
 </body>
 </html>
