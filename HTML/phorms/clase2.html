@@ -9,22 +9,23 @@
 <body>
     <main>
         <section>
-            <label for="">
+            <label for="name">
                 <span>¿Cual es tu nombre?</span> <!-- Required es super importante para cuando se hace necesario que se llenen los campos requeridos -->
-                <input type="text" required>
+                <input type="text" id="name" name="name" required>
             </label>
-            <label for="">
+            <label for="email">
                 <span>¿Cual es tu correo?</span> <!-- Required es super importante para cuando se hace necesario que se llenen los campos requeridos -->
-                <input type="mail" autocomplete="email" required>
+                <input type="mail" autocomplete="email" id="email" name="email"required>
             </label>
-            <label for="">
+            <label for="timeStudy">
                 <span>¿Cual es tu horario favorito para estudiar?</span>
-                <input type="time" required>
+                <input type="time" id="timeStudy" name="timeStudy" required >
             </label>
-            <label for="">
+            <label for="birthday">
                 <span>¿Cual es tu fecha de nacimiento?</span>
-                <input type="date" required autocomplete="bday-day">
+                <input type="date" name="birthday"required autocomplete="bday-day">
             </label>
+                <input type="submit">
         </section>
     </main>
 </body>
