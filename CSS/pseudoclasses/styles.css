@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .main {
     border: 2px solid black;
 }
@@ -6,10 +9,12 @@
     margin: 50px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 100px;
 }
 .main__nav__item {
     border: 2px solid black;
-    
-    font-size: 25px;
+    list-style: none;
+    font-size: 35px;
+    padding: 20px;
 }
