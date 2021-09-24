@@ -3,7 +3,14 @@
 }
 .main__nav {
     border: 2px solid black;
+    margin: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-decoration: none;
 }
 .main__nav__item {
     border: 2px solid black;
+    
+    font-size: 25px;
 }
