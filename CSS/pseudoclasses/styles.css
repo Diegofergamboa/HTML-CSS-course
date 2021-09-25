@@ -18,3 +18,13 @@
     font-size: 35px;
     padding: 20px;
 }
+
+/* .main__nav__item :focus {
+    background-color: aquamarine;
+    opacity: 0.9;
+    size: 0.9;
+} */
+.main__nav__item ::after {
+    background-color: aquamarine;
+}
+
