@@ -4,6 +4,9 @@
     box-sizing: border-box; /* Esta propiedad es muy importante para cuidar que no se deba hacer scroll */ 
 } 
 
+html {
+    font-size: 1.5rem;
+}
 .mainf {
     border: black 8px solid;
     display: flex;
