@@ -8,7 +8,8 @@
     border: black 8px solid;
     display: flex;
     flex-flow: column wrap;
-    align-content: space-between;
+    /* align-content: space-between; */
+    align-content: center;
     align-items: center;
 }
 
