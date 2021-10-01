@@ -13,10 +13,10 @@
     align-items: center;
 }
 
-.main div {
-    border: rgb(11, 247, 62) 7px solid;
-    width: 50px;
-    height: 70px;
+.mainf div {
+    border: rgb(10, 10, 10) 7px solid;
+    width: 100px;
+    height: 100px;
 }
 
 
