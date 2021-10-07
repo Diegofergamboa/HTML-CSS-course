@@ -6,5 +6,10 @@
 }
 
 .caja1 {
-
+    border: black 1rem solid;
+    background-color: blanchedalmond;
+}
+.caja2 {
+    border: black 1rem solid;
+    background-color: red;
 }
