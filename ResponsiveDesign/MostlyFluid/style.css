@@ -36,3 +36,11 @@ html {
 }
 
 /* mediaquerys deberian ir siempre abajo para que se sepa que codigo se puede modificar */
+
+@media (min-widht: 600px) {
+    .c2 , 
+    .c3 , 
+    .c4 {
+        width: 50%;
+    }
+}
