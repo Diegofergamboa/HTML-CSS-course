@@ -28,7 +28,7 @@
         border-radius: 15px;
     }
     .header_item1 img {
-        width: 3rem;
+        width: 2rem;
         height: 3rem;
     }
 
@@ -53,13 +53,27 @@
 /* main */
 
 .main {
-    border: solid black 2px;
+    /* border: solid black 2px; */
+    display: flex;
+    flex-flow: column;
 }
     .main_left {
-        border: solid black 2px;
+        /* border: solid black 2px; */
+        width: 50rem;
+        height: 66.2rem;
+        display: flex;
+        flex-flow: column wrap;
+        background-color: #99c9c7;
+        position: relative;
+        align-items: center;
+        justify-content: space-evenly;
     }
         .main_left_box {
-            border: solid black 2px;
+            background-color: #00caff;
+            border-radius: 15px;
+            height: 12rem;
+            width: 45rem;
+            margin-top: 2rem;
         }
     .main_right {
         border: solid black 2px;
@@ -69,4 +83,6 @@
 
 .footer {
     border: solid black 2px;
+    height: 6rem;
+    background-color: #1eadd1;
 }
