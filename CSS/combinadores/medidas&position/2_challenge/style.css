@@ -5,4 +5,38 @@
     font-size: 62.5%;
 }
 
+/* Header */
 
+.header {
+    border: solid black 2px;
+}
+    .header_item1 {
+        border: solid black 2px;
+    }
+    .header_item2 {
+        border: solid black 2px;
+    }
+        .header_item2_list {
+            border: solid black 2px;
+        }
+
+/* main */
+
+.main {
+    border: solid black 2px;
+}
+    .main_left {
+        border: solid black 2px;
+    }
+        .main_left_box {
+            border: solid black 2px;
+        }
+    .main_right {
+        border: solid black 2px;
+    }
+
+/* footer */
+
+.footer {
+    border: solid black 2px;
+}
