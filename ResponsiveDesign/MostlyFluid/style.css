@@ -34,3 +34,5 @@ html {
 .c5 {
     background-color: #030303;
 }
+
+/* mediaquerys deberian ir siempre abajo para que se sepa que codigo se puede modificar */
