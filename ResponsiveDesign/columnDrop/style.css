@@ -33,3 +33,7 @@ html {
 .c5 {
     background-color: #030303;
 }
+
+@media (min-width : 600px) {
+    
+}
