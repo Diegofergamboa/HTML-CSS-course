@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esta propiedad es muy importante para cuidar que no se deba hacer scroll */ 
+} 
+
+/* Hermano adyacente */
+/* Estamos enviando que todos los párrafos que tengan un hermano adyacente como h2 le aplique el color rojo */
+
+/* h2 + p {
+    color: red;
+} */
+
