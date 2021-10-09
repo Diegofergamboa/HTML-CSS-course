@@ -7,22 +7,39 @@
 
 /* Header */
 
-.header {
-    border: solid black 2px;
+.header_father {
+    /* border: solid black 2px; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
-    height: 40rem;
+    height: 5rem;
+    font-size: 10rem;
 }
     .header_item1 {
         border: solid black 2px;
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+
     }
+    .header_item1 img {
+        width: 3rem;
+        height: 3rem;
+    }
+
     .header_item2 {
         border: solid black 2px;
+        display: flex;
     }
         .header_item2_list {
             border: solid black 2px;
+            text-decoration: none;
+            display: flex;
+            flex-flow: row wrap;
+            list-style: none;
+            justify-content: space-around;
+            width: 60rem;
         }
 
 /* main */
