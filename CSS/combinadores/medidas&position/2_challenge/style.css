@@ -9,6 +9,11 @@
 
 .header {
     border: solid black 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 40rem;
 }
     .header_item1 {
         border: solid black 2px;
