@@ -43,4 +43,8 @@ html {
         width: 75%;
         order: 2;
     }
+    .c3 {
+        width: 100%;
+        order: 3;
+    }
 }
